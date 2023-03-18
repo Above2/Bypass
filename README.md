@@ -2,7 +2,7 @@
 
 Use to Bypass PowerShell's Constrained Lanquage mode
 
-I rewrote this tool for my use on the OSEP exam and its derived from https://github.com/calebstewart Bypass-clm project, My need was to not have to recompile commands to run, so I changed it to a stripped down version where the commands to execute are passed/parsed via cmd line switches.  If you want AMSI then add the string to the cmd/file you pass.
+I rewrote this tool for my use on the OSEP exam and its derived from https://github.com/calebstewart Bypass-clm project, My need was to not have to recompile each time I changed which commands to run, so I changed it to a stripped down version where the commands to execute are passed/parsed via cmd line switches.  If you want AMSI then add the string to the cmd/file you pass.
 
 **/cmd: Commands are passed as a string**
 
