@@ -2,8 +2,16 @@
 
 Use to Bypass PowerShell's Constrained Lanquage mode
 
-I rewrote this tool for my use on the OSEP exam and its derived from https://github.com/calebstewart Bypass-clm project, My need was to not have to recompile each time I changed which commands to run, so I changed it to a stripped down version where the commands to execute are passed/parsed via cmd line switches.  If you want AMSI then add the string to the cmd/file you pass.
+I rewrote this tool for my use on the OSEP exam and its derived from https://github.com/calebstewart/bypass-clm Bypass-clm project. His does more stuff!
+My need was differant, so I changed it to a stripped down version where the commands to execute are passed/parsed via cmd line switches.  If you want AMSI then add the string to the cmd/file you pass.
 
+
+use the syntax
+
+
+**C:\Windows\Microsoft.NET\Framework64\v4.0.30319\installutil.exe /logfile= /LogToConsole=false /U c:\windows\tasks\Bypass.exe PARAMETERS**
+
+update the framework version in the path to whatever is installed in the target system.
 
 Yes I was lazy the switches are in lowercase.
 
